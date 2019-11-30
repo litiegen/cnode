@@ -24,7 +24,8 @@ class Routes extends Component {
 				<Route exact path="/nomatch" component={Nomatch}/>
 				<Redirect to='/nomatch'/>
 			</Switch>
-		)}
+		)
+	}
 }
 
 export default Routes
